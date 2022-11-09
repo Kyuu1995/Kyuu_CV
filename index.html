@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyuu</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- Fullpage -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.12/fullpage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.12/fullpage.extensions.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Wow -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Style -->
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="fullpage" class="animate__animated animate__fadeIn animate__slow">
+        <div class="section">
+            <div class="slide">
+                <div class="home">
+                    <div class="item-0-0">
+                        <div class="animate__animated animate__fadeIn animate__slow animate__delay-2s">
+                            <img src="./images/1home/藍.webp">
+                        </div>
+                        <div class="animate__animated animate__fadeInLeft animate__slow animate__delay-4s">
+                            <div class="box-0-0"></div>
+                        </div>
+                        <div class="box-0-1">
+                            <div class="word-0-0">
+                                <div class="animate__animated animate__fadeInLeftBig animate__slow animate__delay-2s">
+                                    個
+                                </div>
+                            </div>
+                            <div class="word-0-0">
+                                <div class="animate__animated animate__fadeInLeftBig animate__slow animate__delay-3s">
+                                    人
+                                </div>
+                            </div>
+                            <div class="word-0-0">
+                                <div class="animate__animated animate__fadeInLeftBig animate__slow animate__delay-4s">
+                                    專
+                                </div>
+                            </div>
+                            <div class="word-0-0">
+                                <div class="animate__animated animate__fadeInLeftBig animate__slow animate__delay-5s">
+                                    頁
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-0-2">
+                            <div class="animate__animated animate__fadeInRight animate__slower animate__delay-2s">
+                                <div class="word-0-1">S O M E</div>
+                                <div class="word-0-1">O F</div>
+                                <div class="word-0-1">T H E S E</div>
+                                <div class="word-0-1">T H I N G S</div>
+                                <div class="word-0-1">W E</div>
+                                <div class="word-0-1">C A R E</div>
+                                <div class="word-0-1">A B O U T</div>
+                                <div class="word-0-1">A</div>
+                                <div class="word-0-1">L O T ,</div>
+                                <div class="word-0-1">P R E T T Y</div>
+                                <div class="word-0-1">W O R T H L E S S .</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-0-1">
+                        <div class="animate__animated animate__rotateInUpRight animate__slower animate__delay-2s">
+                            <img src="./images/1home/月.webp">
+                        </div>
+                    </div>
+                    <div class="item-0-2">
+                        <div class="animate__animated animate__fadeInBottomRight animate__slower animate__delay-2s">
+                            <img src="./images/1home/鹿.webp">
+                        </div>
+                    </div>
+                    <div class="item-0-3">
+                        <div class="animate__animated animate__zoomIn animate__slower animate__delay-2s">
+                            <img src="./images/1home/仲.webp">
+                        </div>
+                    </div>
+                    <div class="item-0-4">
+                        <div class="animate__animated animate__fadeIn animate__slower">
+                            <div class="box-0-3" id="phone">
+                                <i class="fa-solid fa-mobile-button"></i>
+                                <div class="word-0-3">0 9 1 2 9 9 7 9 3 9</div>
+                            </div>
+                            <div class="box-0-3" id="email">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div class="word-0-3">f x 1 9 9 5 0 2 1 2 @ g m a i l . c o m</div>
+                            </div>
+                            <a href="https://github.com/Kyuu1995" target="_new">
+                                <div class="box-0-3">
+                                    <i class="fa-brands fa-github"></i>
+                                    <div class="word-0-3">K y u u 1 9 9 5</div>
+                                </div>
+                            </a>
+                            <a href="https://goo.gl/maps/A5jrjyfaUGt3TRQi7" target="_new">
+                                <div class="box-0-3">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <div class="word-0-3">T a i w a n</div>
+                                    <div class="word-0-3">T a o y u a n</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-0-5" id="sendEmail" style="display: none;">
+                    <div class="box-0-4">
+                        <form id="form">
+                            <div class="box-0-5">
+                                <div class="word-0-4">Send Me A Email</div>
+                            </div>
+                            <div class="box-0-6">
+                                <div><label for="name" class="word-0-5">Name</label></div>
+                                <input name="name" id="name" type="text" placeholder="名稱" class="text-0-0" required>
+                            </div>
+                            <div class="box-0-6">
+                                <div><label for="phone" class="word-0-5">Phone</label></div>
+                                <input name="phone" id="phone" type="text" placeholder="電話" class="text-0-0" required>
+                            </div>
+                            <div class="box-0-6">
+                                <div><label for="email" class="word-0-5">Email</label></div>
+                                <input name="email" id="email" type="email" placeholder="信箱" class="text-0-0" required>
+                            </div>
+                            <div class="box-0-6">
+                                <div><label for="message" class="word-0-5">Message</label></div>
+                                <textarea name="message" id="message" type="text" placeholder="訊息" class="text-0-1"
+                                    required></textarea>
+                            </div>
+                            <div class="box-0-7">
+                                <input name="button" id="button" type="submit" value="send" class="button-0-0">
+                                <input type="reset" value="reset" class="button-0-0">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="slide">
+                <div class="experience">
+                    <div class="item-1-0">
+                        <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-1s">
+                            <div class="box-1-0">
+                                <img src="./images/2experience/大頭照.webp">
+                            </div>
+                            <div class="box-1-1">
+                                <div class="word-1-0">邱</div>
+                                <div class="word-1-0">仲</div>
+                                <div class="word-1-0">德</div>
+                                <div class="word-1-1">Q I U , Z H O N G - D E</div>
+                            </div>
+                            <div class="word-1-1">1 9 9 5 / 0 2 / 1 2</div>
+                        </div>
+                    </div>
+                    <div class="item-1-1">
+                        <div class="wow animate__animated animate__fadeInRight animate__slow animate__delay-1s">
+                            <div class="word-1-2">工 作 經 驗</div>
+                        </div>
+                        <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-3s">
+                            <div class="item-1-2">
+                                <div class="line-1-0"></div>
+                                <div class="box-1-3">
+                                    <div class="word-1-3">2022</div>
+                                    <div class="word-1-3">4月</div>
+                                    <div class="line-1-1"></div>
+                                    <div class="word-1-3">2021</div>
+                                    <div class="word-1-3">4月</div>
+                                </div>
+                                <div class="box-1-4"></div>
+                                <div class="box-1-5">
+                                    <div class="word-1-4">歐陽空間設計 室內設計助理</div>
+                                    <div class="word-1-5">
+                                        空間規劃設計、現場工地施工監造、2D施工圖繪製、3D場景圖繪製
+                                        透過監工的過程，了解工程的順序；透過與業主溝通，找出雙方都能滿意的決定；面對突發狀況，能順利解決，累積更多的經驗。
+                                    </div>
+                                </div>
+                                <div class="box-1-6">
+                                    <div class="word-1-3">2020</div>
+                                    <div class="word-1-3">8月</div>
+                                    <div class="line-1-1"></div>
+                                    <div class="word-1-3">2019</div>
+                                    <div class="word-1-3">8月</div>
+                                </div>
+                                <div class="box-1-7"></div>
+                                <div class="box-1-8">
+                                    <div class="word-1-4">崇維系統櫥櫃/室內裝修 系統櫥櫃繪圖人員</div>
+                                    <div class="word-1-5">圖面繪製、現場工地丈量</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="experience">
+                    <div class="item-1-0">
+                        <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-1s">
+                            <div class="box-1-9">
+                                <a href="https://www.credly.com/badges/6df10ae4-89cc-44f3-8b30-79746bb977b3/public_url"
+                                    target="_new">
+                                    <img src="./images/2experience/Java.webp">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-1-1">
+                        <div class="wow animate__animated animate__fadeInRight animate__slow animate__delay-1s">
+                            <div class="word-1-2">學 習 歷 程</div>
+                        </div>
+                        <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-3s">
+                            <div class="item-1-2">
+                                <div class="line-1-0"></div>
+                                <div class="box-1-3">
+                                    <div class="word-1-3">2022</div>
+                                    <div class="word-1-3">9月</div>
+                                    <div class="line-1-1"></div>
+                                    <div class="word-1-3">2022</div>
+                                    <div class="word-1-3">5月</div>
+                                </div>
+                                <div class="box-1-4"></div>
+                                <div class="box-1-5">
+                                    <div class="word-1-4">幼獅職訓局 Java系統設計班</div>
+                                    <div class="word-1-5">
+                                        Java程式語言、資料庫MySQL、JSP/Servlet系統設計、LINUX作業系統、網頁程式語言、企業資訊系統設計
+                                        透過Java一系列的課程，深入程式語言的邏輯架構，了解資料庫語言。使用Servlet、CSS、html等工具，嘗試架設網站。
+                                        考取ITS-Java認證
+                                    </div>
+                                </div>
+                                <div class="box-1-6">
+                                    <div class="word-1-3">2021</div>
+                                    <div class="word-1-3">1月</div>
+                                    <div class="line-1-1"></div>
+                                    <div class="word-1-3">2015</div>
+                                    <div class="word-1-3">9月</div>
+                                </div>
+                                <div class="box-1-7"></div>
+                                <div class="box-1-8">
+                                    <div class="word-1-4">大葉大學 空間設計學系</div>
+                                    <div class="word-1-5">室內設計、建築設計等相關課程</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="experience">
+                    <div class="item-1-3">
+                        <div class="wow animate__animated animate__fadeInRight animate__slow animate__delay-1s">
+                            <div class="word-1-2">證 照</div>
+                        </div>
+                        <div class="wow animate__animated animate__fadeIn animate__slow animate__delay-3s">
+                            <div class="box-1-10">
+                                <img src="./images/2experience/ITS.webp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="slide">
+                <div class="about">
+                    <div class="item-2-0">
+                        <div class="wow animate__animated animate__fadeInRight animate__slow animate__delay-1s">
+                            <div class="word-2-0">具 備 技 能</div>
+                        </div>
+                        <div class="item-2-1">
+                            <div class="box-2-0">
+                                <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-2s">
+                                    <img src="https://www.vectorlogo.zone/logos/java/java-ar21.svg">
+                                </div>
+                            </div>
+                            <div class="box-2-0">
+                                <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-3s">
+                                    <img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg">
+                                </div>
+                            </div>
+                            <div class="box-2-0">
+                                <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-5s">
+                                    <img src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg">
+                                </div>
+                            </div>
+                            <div class="box-2-0">
+                                <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-4s">
+                                    <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-ar21.svg">
+                                </div>
+                            </div>
+                            <div class="box-2-0">
+                                <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-3s">
+                                    <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg">
+                                </div>
+                            </div>
+                            <div class="box-2-0">
+                                <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-4s">
+                                    <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg">
+                                </div>
+                            </div>
+                            <div class="box-2-0">
+                                <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-5s">
+                                    <img src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg">
+                                </div>
+                            </div>
+                            <div class="box-2-0">
+                                <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-2s">
+                                    <img src="./images/3about/Autocad.webp">
+                                </div>
+                            </div>
+                            <div class="box-2-0">
+                                <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-4s">
+                                    <img src="./images/3about/SketchUp.webp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="about">
+                    <div class="item-2-0">
+                        <div class="wow animate__animated animate__fadeInRight animate__slow animate__delay-1s">
+                            <div class="word-2-0">人 格 特 質</div>
+                        </div>
+                        <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-3s">
+                            <div class="item-2-1">
+                                <div class="word-2-1">
+                                    從小就非常喜好了解新知識，喜歡閱讀各種不同領域的知識類書籍；長大之後對於設計產生興趣，所以大學選擇了設計相關的科系，能藉由設計去解決問題，進而獲得成就感、創造社會價值。一直以來對於資訊軟體產業都有很深的興趣，但由於高中時選擇了文組，所以升大學時並沒有去考慮與資訊軟體產業相關的學系。
+                                </div>
+                                <div class="word-2-1">
+                                    而在開始工作後，自己會運用下班的時間去瀏覽程式語言相關的線上教學，經由這段時間的學習，讓我決定要趁早轉職，離職後進入幼獅職訓局進修，學習更扎實的程式設計基礎能力。未來也會持續學習相關的知識和技術。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="about">
+                    <div class="item-2-0">
+                        <div class="wow animate__animated animate__fadeInRight animate__slow animate__delay-1s">
+                            <div class="word-2-0">專 業 能 力</div>
+                        </div>
+                        <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-3s">
+                            <div class="item-2-1">
+                                <div class="word-2-1">
+                                    畢業於大葉大學空間設計學系，這段學習經歷讓我習得如何與他人合作，在製作專案時與組員的溝通協調能力，工作上的規劃與安排。在畢業前就已經開始工作的我，提早進入職場學習，讓我獲得更多的實務經驗。
+                                </div>
+                                <div class="word-2-1">
+                                    前往幼獅職訓局加深程式語言的能力，學習Java程式邏輯架構、了解物件導向的語言架構以及習得透過HTML和CSS撰寫網頁、使用JavaScript和jQuery進行網頁前端的資料處理、了解AJAX的使用時機和方法、利用Servlet達到前端與後端的資料傳遞、最後加上MySQL關聯式資料庫達成資料的儲存和維護，過程中也透過Github進行版本控管。
+                                </div>
+                                <div class="word-2-1">
+                                    希望能運用所學結合實務應用，為未來的工作發揮所長，成為公司的專才。未來也將持續精進自身的專業技術能力，前端學習Bootstrap的應用，後端方面將會繼續增加不同的語言能力。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow animate__animated animate__fadeIn animate__slow animate__delay-5s">
+                        <div class="item-2-2">
+                            <img src="./images/3about/印.webp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="about">
+                    <div class="item-2-0">
+                        <div class="wow animate__animated animate__fadeInRight animate__slow animate__delay-1s">
+                            <div class="word-2-0">處 事 能 力</div>
+                        </div>
+                        <div class="wow animate__animated animate__fadeIn animate__slower animate__delay-3s">
+                            <div class="item-2-1">
+                                <div class="word-2-1">
+                                    曾在室內設計公司擔任助理。藉由與師傅們協調，和業主的溝通，了解他們的想法與需求，並成為公司與客戶之間的橋樑；透過在工地的實務經驗，了解到工作上規劃與安排的重要性，經由與廠商的接洽，讓我獲得更多的商談經驗。
+                                </div>
+                                <div class="word-2-1">
+                                    這些經驗讓我了解到團隊合作的重要性，要完成一件事並不是只靠一個人就能做到，擁有專業的知識同時也要具備溝通的能力，這樣在工作上才能事半功倍。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="slide">
+                <div class="work">
+                    <div class="item-2-0">
+                        <div class="wow animate__animated animate__fadeInRight animate__slow animate__delay-1s">
+                            <div class="word-2-0">作 品 ． 一</div>
+                        </div>
+                        <div class="wow animate__animated animate__fadeIn animate__slow animate__delay-3s">
+                            <div class="box-2-1">
+                                <iframe width="1184" height="664" src="https://www.youtube.com/embed/HQXwy3Wqb64"
+                                    title="幼獅職訓局 - Java系統設計班 - 結訓作品 - AccountingSystem記帳系統" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="box-2-2">
+                                <div class="word-2-2">AccountingSystem 記帳系統</div>
+                                <div class="word-2-3">
+                                    此作品為在幼獅職訓局結訓時完成的一個系統，利用ajax串接後臺的MySQL資料庫，提供基礎的CRUD功能以用來做簡單的記帳功能。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="work">
+                    <div class="item-2-0">
+                        <div class="wow animate__animated animate__fadeInRight animate__slow animate__delay-1s">
+                            <div class="word-2-0">作 品 ． 二</div>
+                        </div>
+                        <div class="wow animate__animated animate__fadeIn animate__slow animate__delay-3s">
+                            <div class="box-2-3">
+                                <a href="https://wg2xrjhz0vxj9zmxn8zo2w.on.drv.tw/ChingYuan/" target="_new">
+                                    <img src="./images/4work/ChingYuan.webp">
+                                </a>
+                            </div>
+                            <div class="box-2-2">
+                                <div class="word-2-2">Ching Yuan 作品集</div>
+                                <div class="word-2-3">
+                                    此作品為幫女友製作的作品集網頁，透過動畫效果來讓原本枯燥的靜態網頁看起來更精緻一些，利用EmailJS達成即時寄送郵件的功能。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wow animate__animated animate__fadeIn animate__slow animate__delay-5s">
+                        <div class="item-2-3">
+                            <img src="./images/4work/鹿.webp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="animate__animated animate__fadeIn animate__slow">
+                <div class="box-3-0">
+                    <img src="./images/5end/背.webp">
+                    <img src="./images/5end/背.webp">
+                    <img src="./images/5end/背.webp">
+                    <img src="./images/5end/背.webp">
+                    <img src="./images/5end/背.webp">
+                    <img src="./images/5end/背.webp">
+                </div>
+            </div>
+            <div class="wow animate__animated animate__fadeIn animate__slower">
+                <div class="box-3-1">
+                    <img src="./images/5end/墨.webp">
+                </div>
+            </div>
+            <div class="end">
+                <div class="box-3-2">
+                    <div class="wow animate__animated animate__slideInUp animate__slower">
+                        <img src="./images/5end/鹿.webp">
+                    </div>
+                </div>
+                <div class="box-3-3">
+                    <div class="wow animate__animated animate__zoomIn animate__slower">
+                        <img src="./images/5end/月.webp">
+                    </div>
+                </div>
+                <div class="word-3-0">
+                    <div class="wow animate__animated animate__zoomIn animate__slower">
+                        Thank You For Taking Time To Read My CV.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    $(function () {
+        $('#fullpage').fullpage({
+            anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+            navigationTooltips: ['Home', 'Experience', 'About', 'Work', 'End'],
+            css3: true,
+            scrollingSpeed: 1000,
+            scrollBar: true,
+            scrollOverflow: false,
+            navigation: true,
+            slidesNavigation: true,
+            loopHorizontal: false,
+            afterRender: function () {
+                wow = new WOW({
+                    animateClass: 'animated'
+                })
+                wow.init()
+            }
+        })
+    })
+    $('#phone').on('click', function () {
+        navigator.clipboard.writeText("0912997939")
+        alert("複製成功!")
+    })
+    var sEmail = $('#sendEmail')
+    $('#email').on('click', function () {
+        sEmail.fadeIn(500)
+    })
+    sEmail.on('click', function (e) {
+        e.stopPropagation()
+        if (!$(e.target).is('#sendEmail *')) {
+            sEmail.fadeOut(500)
+        }
+    })
+    emailjs.init('jM5DyT-pN9FFu3bpW')
+    var btn = $('#button')
+    var form = $('#form')
+    form.on('submit', function (e) {
+        e.preventDefault()
+        btn.value = 'Sending'
+        var serviceID = 'Kyuu'
+        var templateID = 'Kyuu'
+        emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+                btn.value = 'Send Email'
+                alert('Successfully Sent')
+                form[0].reset()
+                sEmail.fadeOut(500)
+            }, (err) => {
+                btn.value = 'Send Email'
+                alert(JSON.stringify(err))
+            })
+    })
+</script>
+
+</html>
